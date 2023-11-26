@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ActivityImageProcess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8a4f97ca57a77c97cdf6f7553e099ed87bd8b1d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d30052f20b998c63c731b6073a9be4fcf764b32")]
 [assembly: System.Reflection.AssemblyProductAttribute("ActivityImageProcess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ActivityImageProcess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
