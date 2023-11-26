@@ -1,0 +1,5 @@
+C:\Users\bonti\source\repos\ActivityImageProcess\ActivityImageProcess\bin\Release\net7.0-windows\publish\ActivityImageProcess.exe
+C:\Users\bonti\source\repos\ActivityImageProcess\ActivityImageProcess\bin\Release\net7.0-windows\publish\ActivityImageProcess.dll
+C:\Users\bonti\source\repos\ActivityImageProcess\ActivityImageProcess\bin\Release\net7.0-windows\publish\ActivityImageProcess.deps.json
+C:\Users\bonti\source\repos\ActivityImageProcess\ActivityImageProcess\bin\Release\net7.0-windows\publish\ActivityImageProcess.runtimeconfig.json
+C:\Users\bonti\source\repos\ActivityImageProcess\ActivityImageProcess\bin\Release\net7.0-windows\publish\ActivityImageProcess.pdb
