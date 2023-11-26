@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bonti\\source\\repos\\ActivityImageProcess\\ActivityImageProcess\\ActivityImageProcess.csproj",
+      "projectUniqueName": "C:\\Users\\bonti\\source\\repos\\DIPActivity\\ActivityImageProcess\\ActivityImageProcess.csproj",
       "projectName": "ActivityImageProcess",
-      "projectPath": "C:\\Users\\bonti\\source\\repos\\ActivityImageProcess\\ActivityImageProcess\\ActivityImageProcess.csproj",
+      "projectPath": "C:\\Users\\bonti\\source\\repos\\DIPActivity\\ActivityImageProcess\\ActivityImageProcess.csproj",
       "packagesPath": "C:\\Users\\bonti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bonti\\source\\repos\\ActivityImageProcess\\ActivityImageProcess\\obj\\",
+      "outputPath": "C:\\Users\\bonti\\source\\repos\\DIPActivity\\ActivityImageProcess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bonti\\AppData\\Roaming\\NuGet\\NuGet.Config",

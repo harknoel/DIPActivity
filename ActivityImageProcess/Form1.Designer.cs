@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             menuStrip1 = new MenuStrip();
             loadToolStripMenuItem = new ToolStripMenuItem();
             openToolStripMenuItem = new ToolStripMenuItem();
@@ -48,6 +49,10 @@
             pictureBox3 = new PictureBox();
             pictureBox4 = new PictureBox();
             pictureBox5 = new PictureBox();
+            btnStart = new Button();
+            btnStop = new Button();
+            label1 = new Label();
+            timer1 = new System.Windows.Forms.Timer(components);
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -211,11 +216,47 @@
             pictureBox5.TabIndex = 13;
             pictureBox5.TabStop = false;
             // 
+            // btnStart
+            // 
+            btnStart.Location = new Point(1064, 326);
+            btnStart.Name = "btnStart";
+            btnStart.Size = new Size(94, 29);
+            btnStart.TabIndex = 14;
+            btnStart.Text = "Start";
+            btnStart.UseVisualStyleBackColor = true;
+            btnStart.Click += btnStart_Click;
+            // 
+            // btnStop
+            // 
+            btnStop.Location = new Point(1198, 326);
+            btnStop.Name = "btnStop";
+            btnStop.Size = new Size(94, 29);
+            btnStop.TabIndex = 15;
+            btnStop.Text = "Stop";
+            btnStop.UseVisualStyleBackColor = true;
+            btnStop.Click += btnStop_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(951, 335);
+            label1.Name = "label1";
+            label1.Size = new Size(63, 20);
+            label1.TabIndex = 16;
+            label1.Text = "Camera:";
+            // 
+            // timer1
+            // 
+            timer1.Tick += timer1_Tick;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1390, 781);
+            ClientSize = new Size(1390, 758);
+            Controls.Add(label1);
+            Controls.Add(btnStop);
+            Controls.Add(btnStart);
             Controls.Add(pictureBox5);
             Controls.Add(pictureBox4);
             Controls.Add(pictureBox3);
@@ -261,5 +302,9 @@
         private PictureBox pictureBox3;
         private PictureBox pictureBox4;
         private PictureBox pictureBox5;
+        private Button btnStart;
+        private Button btnStop;
+        private Label label1;
+        private System.Windows.Forms.Timer timer1;
     }
 }

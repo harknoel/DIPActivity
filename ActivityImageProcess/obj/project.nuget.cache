@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BrYPVOvAAiPB8a9fZPNvqD8Aq6/4ozEnx759hhFXpcVQgh10jpUmENoFP4Sx1pw++ZSGkxZpifPVnb6bRjqS+Q==",
+  "dgSpecHash": "4hJEU6Rh1vixiJm8Y6KlpfL4Pq12hOOZpY1vTED3qxT+9XgOULKrDqcZS1KERReroFpM6WfK5adI7eCLDPVpkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bonti\\source\\repos\\ActivityImageProcess\\ActivityImageProcess\\ActivityImageProcess.csproj",
+  "projectFilePath": "C:\\Users\\bonti\\source\\repos\\DIPActivity\\ActivityImageProcess\\ActivityImageProcess.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

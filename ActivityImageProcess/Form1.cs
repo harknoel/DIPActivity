@@ -1,3 +1,5 @@
+using WebCamLib;
+
 namespace ActivityImageProcess
 {
     public partial class Form1 : Form
@@ -6,9 +8,13 @@ namespace ActivityImageProcess
         Bitmap loaded;
         Bitmap processed;
         Bitmap imageB, imageA, colorgreen;
+        Device[] devices;
+        Device device;
         public Form1()
         {
             InitializeComponent();
+            devices = DeviceManager.GetAllDevices();
+            device = devices[0];
         }
 
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
@@ -264,6 +270,23 @@ namespace ActivityImageProcess
                 }
             }
             pictureBox5.Image = resultImage;
+        }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            device.ShowWindow(pictureBox3);
+            timer1.Start();
+        }
+
+        private void btnStop_Click(object sender, EventArgs e)
+        {
+            device.Stop();
+            timer1.Stop();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            device.Sendmessage();
         }
     }
 }
